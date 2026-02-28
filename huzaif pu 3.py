@@ -1,0 +1,5 @@
+message=input("enter your message")
+print(f"original message :'{message}'")
+print("formated message 1:'{} - a simpel display.".format(message))
+print("formated message 2:'{umsg}' - emphasized.".format(umsg==message.upper()))
+print(f"formated message 3:message length is {len (message)} characters.")
