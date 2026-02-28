@@ -1,0 +1,5 @@
+name=input("Enter your name:")
+age=int(input(":Enetr your age:"))
+print(f"hello,{name}!you are {age}year old(using f string).")
+print("hello,{}!you are{}years old(using format().".format(name,age))
+print("hello,%s!you are %d year old (using %%operator)."%(name,age))
